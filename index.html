@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body style="align-items: center;">
+    <div style="flex: auto;">
+        <input type="number" id="arraySize"></input>
+        <select name="sortingAlgorithms" id="sortingAlgorithms">
+            <option value="bubbleSort">Bubble Sort</option>
+            <option value="quickSort">Quick Sort</option>
+            <option value="insertionSort">Insertion Sort</option>
+            <option value="bogoSort">Bogo Sort</option>
+          </select>          
+        <button onclick="render()" id="btnrender">Render</button>
+    </div>
+    <canvas id="myCanvas" width="1300" height="650" style="border:10px solid #000000;">
+    </canvas>
+
+</body>
+
+<script src="main.js"> </script>
+
+</body>
+
+</html>
